@@ -2,14 +2,13 @@
 // Il programma stampa la somma di tutti i numeri inseriti.
 
 
-let numeri = parseInt(prompt('Inserire un numero'));
-
+let somma = 0;
 let i = 0;
 
-while (i <= 8){
-    numeri = parseInt(prompt('Inserire un numero'));
-    i++;
-    
+while (i <= 9){
+    numero = parseInt(prompt('Inserire un numero'));
+    somma = somma + numero;
+    i++;   
 }
 
-
+alert("La somma dei numeri è " + somma)
