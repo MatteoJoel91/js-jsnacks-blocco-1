@@ -9,4 +9,7 @@ let i = 0;
 while (i <= 8){
     numeri = parseInt(prompt('Inserire un numero'));
     i++;
+    
 }
+
+
