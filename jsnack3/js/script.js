@@ -8,8 +8,10 @@ let media = 0;
 
 for (let i = 0; i <= 10; i++) {
     somma = i + somma;
-    media = somma / i;
+    
 }
+
+media = somma / 10;
 
 console.log('La somma dei primi 10 numeri è ' + somma);
 container.innerHTML += "<div class='risultati'>" + 'La somma dei primi 10 numeri è ' + somma + "</div>";
