@@ -6,7 +6,7 @@ let somma = 0;
 let i = 0;
 
 while (i <= 9){
-    numero = parseInt(prompt('Inserire un numero'));
+    numero = parseInt(prompt('Inserire il ' + (i+1) + 'º numero'));
     somma = somma + numero;
     i++;   
 }
