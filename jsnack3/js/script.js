@@ -1,9 +1,18 @@
 // Calcola la somma e la media dei primi 10 numeri.
 
-const numero = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+let container = document.getElementById('risultati');
+
 let somma = 0;
-for (let i = 0; i <= numero.length; i++) {
-    somma = i + i;
-    console.log('La somma di ' + i + ' + ' + i + ' è = a ' + somma);
+
+let media = 0;
+
+for (let i = 0; i <= 10; i++) {
+    somma = i + somma;
+    media = somma / i;
 }
 
+console.log('La somma dei primi 10 numeri è ' + somma);
+container.innerHTML += "<div class='risultati'>" + 'La somma dei primi 10 numeri è ' + somma + "</div>";
+
+console.log ('La media della somma dei primi 10 numeri è ' + media);
+container.innerHTML += "<div class='risultati'>" + 'La media della somma dei primi 10 numeri è ' + media + "</div>";
