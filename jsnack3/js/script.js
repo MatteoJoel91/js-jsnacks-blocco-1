@@ -9,7 +9,7 @@ let somma = 0;
 
 let media = 0;
 
-for (let i = 0; i <= numero_giri; i++) {
+for (let i = 1; i <= numero_giri; i++) {
     somma = i + somma;
     console.log(i);
     elementi.innerHTML += i + ' ' ;
