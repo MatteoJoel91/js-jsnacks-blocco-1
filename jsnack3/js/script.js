@@ -7,8 +7,7 @@ let somma = 0;
 let media = 0;
 
 for (let i = 0; i <= 10; i++) {
-    somma = i + somma;
-    
+    somma = i + somma;  
 }
 
 media = somma / 10;
